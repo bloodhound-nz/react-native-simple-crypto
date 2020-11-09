@@ -48,7 +48,7 @@ import com.facebook.react.bridge.Callback;
 
 public class RNSCAes extends ReactContextBaseJavaModule {
 
-    private static final String CIPHER_ALGORITHM = "AES/CBC/PKCS7Padding";
+    private static final String CIPHER_ALGORITHM = "AES/CBC/NoPadding";
     private static final String KEY_ALGORITHM = "AES";
 
     public RNSCAes(ReactApplicationContext reactContext) {
